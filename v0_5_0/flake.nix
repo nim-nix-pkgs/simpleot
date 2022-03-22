@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-simpleot-v0_5_0.flake = false;
+  inputs.src-simpleot-v0_5_0.ref   = "refs/tags/v0.5.0";
   inputs.src-simpleot-v0_5_0.owner = "markspanbroek";
-  inputs.src-simpleot-v0_5_0.ref   = "v0_5_0";
   inputs.src-simpleot-v0_5_0.repo  = "simpleot.nim";
   inputs.src-simpleot-v0_5_0.type  = "github";
   
