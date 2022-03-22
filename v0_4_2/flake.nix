@@ -9,13 +9,14 @@
   
   inputs.src-simpleot-v0_4_2.flake = false;
   inputs.src-simpleot-v0_4_2.owner = "markspanbroek";
-  inputs.src-simpleot-v0_4_2.ref   = "refs/tags/v0.4.2";
+  inputs.src-simpleot-v0_4_2.ref   = "v0_4_2";
   inputs.src-simpleot-v0_4_2.repo  = "simpleot.nim";
   inputs.src-simpleot-v0_4_2.type  = "github";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
   inputs."nimterop".ref   = "master";
   inputs."nimterop".repo  = "nimterop";
+  inputs."nimterop".dir   = "v0_6_13";
   inputs."nimterop".type  = "github";
   inputs."nimterop".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimterop".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
